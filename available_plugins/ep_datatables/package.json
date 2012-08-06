@@ -1,0 +1,29 @@
+{
+  "author": {
+    "name": ["Gedion Woldeselassie","Tenzin Tsetan"],
+    "email": "gwy321@gmail.com"
+  },
+  "name": "ep_datatables",
+  "description": "Adds datatables to etherpad-lite",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gedion/ep_datatables.git"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {
+    "ep_etherpad-lite": "1.0.x"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "_id": "ep_datatables@0.1.0",
+  "_engineSupported": true,
+  "_npmVersion": "1.1.21",
+  "_nodeVersion": "v0.6.16",
+  "_defaultsLoaded": true,
+  "_from": "ep_datatables"
+}
+
+
