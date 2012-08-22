@@ -13,7 +13,7 @@ exports.collectContentTblTd = function (hook, context) {
                 var tagName = n.getAttribute("name");
                 if (tagName == 'tData') {
                     txt = txt.replace(/\\/g, "|");
-                    txt = txt.replace(/"/g, "'");
+                    txt = txt.replace(/\"/g, "'");
                     break;
                 } else if (tagName == 'delimCell') {
                     txt = '","';
